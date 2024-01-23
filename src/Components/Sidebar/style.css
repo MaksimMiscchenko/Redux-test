@@ -1,0 +1,44 @@
+.sidebar {
+  background: linear-gradient(
+    180deg,
+    rgb(0, 0, 0) 10%,
+    rgb(13, 15, 15) 35%,
+    rgb(10, 9, 58)
+  );
+  height: 100%;
+  width: 90px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  padding-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.sidebar ul {
+  padding: 0;
+}
+.sidebar li {
+  color: white;
+  list-style: none;
+  margin: 20px 0;
+}
+
+.sidebar button {
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  color: #000;
+}
+
+.sidebar button:hover {
+  background-color: #03e8f4;
+  box-shadow: 0 0 15px #03e8f4, 0 0 15px #03e8f4, 0 0 15px #03e8f4,
+    0 0 15px #03e8f4;
+}
+.add-task {
+  font-size: 40px;
+  color: rgb(245, 9, 56);
+}

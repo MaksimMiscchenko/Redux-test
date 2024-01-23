@@ -1,0 +1,45 @@
+.todo {
+  width: 800px;
+  display: inline-block;
+  margin: 100px 200px;
+}
+
+.todo-note {
+  position: relative;
+  color: white;
+  font-size: 25px;
+  margin: 30px 0;
+  background: linear-gradient(45deg, rgb(10, 170, 216) 38%, rgb(17, 70, 142));
+
+  border-radius: 20px;
+  list-style: none;
+  height: 70px;
+  text-align: start;
+  padding: 10px 10px;
+
+  text-overflow: ellipsis;
+  display: flex;
+  justify-content: space-between;
+}
+.delete-btn {
+  position: absolute;
+  top: 60%;
+  right: -7%;
+}
+.todo-note p {
+  width: 620px;
+  overflow: hidden;
+  margin: 0;
+}
+.ready-btn {
+  position: absolute;
+  top: 10%;
+  right: -7%;
+}
+h3 {
+  position: absolute;
+  top: 30%;
+  left: 30%;
+  font-size: 50px;
+  color: antiquewhite;
+}

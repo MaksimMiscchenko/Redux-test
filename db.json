@@ -1,0 +1,20 @@
+{
+  "posts": [
+    {
+      "title": "Первая заметка",
+      "id": 1
+    },
+    {
+      "title": "+ (Создать заметку)",
+      "id": 2
+    },
+    {
+      "title": "Redux Thunk",
+      "id": 3
+    }
+  ],
+  "comments": [],
+  "profile": {
+    "name": "typicode"
+  }
+}
